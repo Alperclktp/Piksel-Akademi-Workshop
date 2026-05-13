@@ -57,6 +57,7 @@ namespace EpicToonFX
                     }
                 }
             }
+            Debug.DrawRay(Camera.main.ScreenPointToRay(Input.mousePosition).origin, Camera.main.ScreenPointToRay(Input.mousePosition).direction * 100, Color.yellow);
         }
 
         public void nextEffect() //Changes the selected projectile to the next. Used by UI
