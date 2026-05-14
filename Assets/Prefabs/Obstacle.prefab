@@ -101,7 +101,6 @@ GameObject:
   m_Component:
   - component: {fileID: 931825677370854188}
   - component: {fileID: 441759855086784576}
-  - component: {fileID: 2196495107247694369}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Untagged
@@ -147,26 +146,3 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!136 &2196495107247694369
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8433529858267124257}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.9
-  m_Height: 2.4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
